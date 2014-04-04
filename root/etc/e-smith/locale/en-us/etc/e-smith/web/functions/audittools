@@ -1,0 +1,16 @@
+<lexicon lang="en-us">
+    <!-- vim: ft=xml:
+    -->
+
+    <entry>
+        <base>FORM_TITLE</base>
+        <trans>Audit Tools Manager</trans>
+    </entry>
+
+    <entry>
+        <base>DESCRIPTION_AUDITTOOLSMANAGER</base>
+        <trans>Here you can see the SME Server Audit Tools.</trans>
+    </entry>
+
+
+</lexicon>

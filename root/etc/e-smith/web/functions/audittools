@@ -23,7 +23,7 @@ __DATA__
 	footer="/etc/e-smith/web/common/foot.tmpl">
  	
 	<page name="First" pre-event="print_status_message()">
-		<description>DESCRIPTION_RAIDSTATUS</description>
+		<description>DESCRIPTION_AUDITTOOLSMANAGER</description>
         	<subroutine src="print_audittools()" />
 	</page>
 </form>
