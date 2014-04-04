@@ -1,0 +1,30 @@
+#!/usr/bin/perl -wT
+
+#----------------------------------------------------------------------
+# heading     : Administration
+# description : Audit Tools Manager
+# navigation  : 3100 3200
+#
+# Authors: Stephane de Labrusse
+#----------------------------------------------------------------------
+
+use strict;
+use warnings;
+
+use esmith::FormMagick::Panel::audittools;
+
+my $f = esmith::FormMagick::Panel::audittools->new();
+$f->display();
+
+__DATA__
+<form
+    title="FORM_TITLE"
+        header="/etc/e-smith/web/common/head.tmpl"
+	footer="/etc/e-smith/web/common/foot.tmpl">
+ 	
+	<page name="First" pre-event="print_status_message()">
+		<description>DESCRIPTION_RAIDSTATUS</description>
+        	<subroutine src="print_audittools()" />
+	</page>
+</form>
+
